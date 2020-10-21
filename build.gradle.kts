@@ -7,6 +7,7 @@ plugins {
     id("java")
 }
 
+// Toolchain and language version both report errors but work in the build
 java.toolchain.languageVersion.set(JavaLanguageVersion.of(8))
 
 val gradleDependencyVersion = "6.7"
